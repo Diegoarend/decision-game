@@ -16,6 +16,7 @@ const showTextNode = (textNodeIndex) => {
   }
 
   textNode.options.map(option => {
+    console.log(option)
     if (showOption(option)) {
       const button = document.createElement('button')
       button.innerText = option.text
